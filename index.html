@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+    <link rel="stylesheet" href="./basic.css">
+    
+</head>
+<body>
+    <div class="nav">
+        
+        
+    <nav>
+        <ul>
+            <li class="li">
+                
+                <i class="fa-regular fa-clock fa-2xl"></i>
+            </li>
+            <li class="li">
+                <h1 class="h1">Stopwatch</h1>
+            </li>
+            <li class="left li">
+    <a href="#">Calender</a>
+            </li>
+            <li class="left li">
+                <a href="#">Clock</a>
+            </li>
+            <li class="left li">
+                <a href="#">Timer</a>
+            </li>
+            <li class="left li">
+                <a href="#">Home</a>
+            </li>
+        </ul>
+    </nav>
+</div>
+    <span class="click">
+        <button class="cli" onclick="instru()">Click here for instructions</button>
+    </span>
+     <div class="main">
+        <div class="box">
+            <p class="day num" id="da2">00</p>
+            <br>
+            <p class="same">Days</p>
+        </div>
+        <div class="box">
+            <p class="hour num" id="hr2">00</p>
+            <br>
+            <p class="same">Hours</p>
+        </div>
+        <div class="box">
+            <p class="min num" id="mi2">00</p>
+            <br>
+            <p class="same">Minutes</p>
+        </div>
+        <div class="box last">
+            <p class="sec num" id="se2">00</p>
+        <br>
+        <p class="same">Seconds</p>
+        </div>
+        
+    </div>
+    <div class="main">
+        <div class="box1">
+            <input type="number" class="days" value="0" id="da1" min="0">
+
+        </div>
+        <div class="box1">
+            <input type="number" class="Hours" id="hr1" value="0" min="0">
+        </div>
+        <div class="box1">
+            <input type="number" class="mins" id="mi1" value="0" min="0">
+        </div>
+        <div class="box1">
+            <input type="number" class="secs" id="se1" value="0" min="0">
+        </div>
+    </div>
+    <div class="options">
+        <div class="opt" onclick="setTimer()">
+            <button class="set">Set Timer</button>
+        </div>
+        <div class="opt" onclick="start()">
+            <button class="start" >Start/Resume</button>
+        </div>
+        <div class="opt" onclick="pause()">
+            <button class="pause">Pause</button>
+        </div>
+        <div class="opt" onclick="reset()">
+            <button class="reset">Reset</button>
+        </div>
+    </div>
+   
+    <div class="instr" id="inst">
+        <div class="in">Instructions</div>
+        <div class="points">
+            <ol>
+                <li class="lis">Enter the values in the inputs.</li><br>
+                <li class="lis">Press the SetTimer Button to set the timer.</li><br>
+                <li class="lis">Press the Start/Resume Button to start the timer.</li><br>
+                <li class="lis">Pause the Timer if you want to pause.</li><br>
+                <li class="lis">Press Start/Resume Button to resume the timer.</li><br>
+                <li class="lis">Press the Reset Button to reset the values.</li>
+            </ol>
+        </div>
+    </div>
+
+<script src="./main.js"></script>
+</body>
+
+
+</html>

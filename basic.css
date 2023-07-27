@@ -1,0 +1,142 @@
+body{
+    margin: 0px;
+    background-color: rgb(37, 184, 241);
+}
+.h1{
+    margin: 0;
+}
+.nav{
+    background-color: rgb(1, 1, 56);
+    color: white;
+    height: 6vh;
+    width: 100%;
+    padding-top: 1vh;
+}
+ul {
+    list-style-type: none;
+    margin: 0 2vw;
+    padding: 0;
+  }
+  .li{
+    display: inline-block;
+    margin-right: .8vw;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+    font-size:large;
+    
+  }
+  .left{
+    float: right;
+    margin-left: 3vw;
+    padding-top: .8vh;
+  }
+  .click{
+    
+    margin: 4vh 5vh;
+    display: flex;
+   
+  }
+  .cli{
+    background-color: rgb(1, 1, 56);
+    color: white;
+    font-size: large;
+    box-shadow: 3px 3px 3px white;
+  }
+  .main{
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 3vw;
+    margin: 5vw 7vw;
+    color: white;
+
+  }
+  .box{
+    /* align-self: center; */
+    background-color:  rgb(1, 1, 56);
+    width: 13vw;
+    height: 13vw;
+    text-align: center;
+    border-radius: 7px;
+  }
+  .num{
+    margin-top: 1vw;
+    font-size:8vw;
+    
+  }
+  .same{
+    margin-top: -10vw;
+    font-size: 2vw;
+  }
+  .box1{
+    margin-left: 3.5vw;
+  }
+ input{
+    height: 3vw;
+    width: 5vw;
+    border-radius: 5px;
+    box-shadow:2px 2px cadetblue;
+    border-top: 0;
+    border-left: 0;
+    font-size:xx-large;
+    text-align: center;
+    padding-left: 1vw;
+    
+ }
+ .options{
+    display: flex;
+    
+    justify-content: center;
+ }
+ .opt{
+    margin-right: .5vw;
+ }
+ .set{
+    border-radius: 5px;
+    height: 2vw;
+    color: white;
+    background-color: rgb(1, 1, 56);
+ }
+ .pause{
+    border-radius: 5px;
+    height: 2vw;
+    color: white;
+    background-color: rgb(61, 61, 232);
+ }
+ .start{
+    border-radius: 5px;
+    height: 2vw;
+    color: white;
+    background-color: rgb(184, 0, 220);
+ }
+ .reset{
+    border-radius: 5px;
+    height: 2vw;
+    color: white;
+    background-color: rgb(255, 54, 9);
+ }
+ button{
+    cursor: pointer;
+    box-shadow: none;
+ }
+ ol{
+    list-style-type:lower-latin;
+    list-style: decimal;
+ }
+ .instr{
+    margin-top: 1.12vw;
+    background-color:  rgb(1, 1, 56);
+    color: white;
+    height: 14vw;
+    visibility: hidden;
+ }
+.lis{
+    padding-left: 2vw;
+    height:0.1vw;
+}
+.in{
+    font-size:larger;
+    padding-top:2vw;
+    padding-left:4vw;
+}
